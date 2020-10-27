@@ -27,4 +27,4 @@ Yes.
 - how many 1:N relationships are there?
 3
 - Do we have or do we need a N:N relationship?
-We can have one, if we allow bookings to have multiple tables, but in this case I made the assumption that bookings with multiple books would be split into smaller transactions with one book each. It is possible to have a linking table to allow for a booking to have multiple tables, to avoid a many-to-many relationship. generally you want to avoid many-many relationships, hence the linking key or assumption for one-book transactions. 
+We can have one, if we allow bookings to have multiple books, but in this case I made the assumption that bookings with multiple books would be split into smaller transactions with one book each. It is possible to have a linking table to allow for a booking to have multiple tables, to avoid a many-to-many relationship. generally you want to avoid many-many relationships, hence the linking key or assumption for one-book transactions. 
